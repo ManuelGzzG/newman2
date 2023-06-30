@@ -1,0 +1,31 @@
+# Starter pipeline
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    workingDir: 'postmanCollection'
+    customCommand: 'install -g newman-reporter-htmlextra'
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+- task: CmdLine@2
+  inputs:
+    script: 'newman run Bray.postman_collection.json -r htmlextra --reporters cli.junit.json,htmlextra --reporter-junit-export junitReport.xml --reporter-htmlextra-export TestReport.html'
+    workingDirectory: 'postmanCollection'
+trigger:
+- main
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/*.xml'
+    testRunTitle: 'results'
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
