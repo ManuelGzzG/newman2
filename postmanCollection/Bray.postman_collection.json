@@ -1,0 +1,980 @@
+{
+	"info": {
+		"_postman_id": "bf11089e-599c-46de-afac-d59a7f857045",
+		"name": "Bray",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26295933"
+	},
+	"item": [
+		{
+			"name": "Entry",
+			"item": [
+				{
+					"name": "RetrieveMarketSegment",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/POST-api-Entity-RetrieveMarketSegment",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"POST-api-Entity-RetrieveMarketSegment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RetrieveIndustrySubSegment",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/POST-api-Entity-RetrieveIndustrySubSegment",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"POST-api-Entity-RetrieveIndustrySubSegment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TransactionCurrency",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/POST-api-Entity-TransactionCurrency",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"POST-api-Entity-TransactionCurrency"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TransactionCurrencyByCurrencyCode",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/POST-api-Entity-TransactionCurrencyByCurrencyCode",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"POST-api-Entity-TransactionCurrencyByCurrencyCode"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OpportunityLookupByOppNumber",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/POST-api-Entity-OpportunityLookupByOppNumber",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"POST-api-Entity-OpportunityLookupByOppNumber"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ContactFormEntities",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/POST-api-Entity-ContactFormEntities",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"POST-api-Entity-ContactFormEntities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BusinessPartnersByContactId_contactId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/GET-api-Entity-BusinessPartnersByContactId_contactId",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"GET-api-Entity-BusinessPartnersByContactId_contactId"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCountries",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/GET-api-Entity-GetCountries",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"GET-api-Entity-GetCountries"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetLanguages",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/GET-api-Entity-GetLanguages",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"GET-api-Entity-GetLanguages"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "WebRolesByContactId_contactId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/GET-api-Entity-WebRolesByContactId_contactId",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"GET-api-Entity-WebRolesByContactId_contactId"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "WebRolesByEmail_email",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/GET-api-Entity-WebRolesByEmail_email",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"GET-api-Entity-WebRolesByEmail_email"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Contact",
+			"item": [
+				{
+					"name": "Verify",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/POST-api-Contact-Verify",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"POST-api-Contact-Verify"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetByEmail",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/POST-api-Contact-GetByEmail",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"POST-api-Contact-GetByEmail"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById-id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/GET-api-Contact-GetById-id",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"GET-api-Contact-GetById-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "contactId-language",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/GET-api-Contact-contactId-language",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"GET-api-Contact-contactId-language"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SignupUpdate",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/POST-api-Contact-SignupUpdate",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"POST-api-Contact-SignupUpdate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ChangePassword",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/POST-api-Contact-ChangePassword",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"POST-api-Contact-ChangePassword"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetCRMUserContactInformation_contactId",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/GET-api-Contact-GetCRMUserContactInformation_contactId",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"GET-api-Contact-GetCRMUserContactInformation_contactId"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Invitation",
+			"item": [
+				{
+					"name": "GetById-id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/GET-api-Invitation-GetById-id",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"GET-api-Invitation-GetById-id"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "OptionSet",
+			"item": [
+				{
+					"name": "Retrieve",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/POST-api-OptionSet-Retrieve",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"POST-api-OptionSet-Retrieve"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "optionsSetName",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/GET-api-OptionSet-Get_optionsSetName",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"GET-api-OptionSet-Get_optionsSetName"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetLeadReasons",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/GET-api-OptionSet-GetLeadReasons",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"GET-api-OptionSet-GetLeadReasons"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Values",
+			"item": [
+				{
+					"name": "GETValues",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/GET-api-Values",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"GET-api-Values"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Values-id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/GET-api-Values-id",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"GET-api-Values-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POSTValues",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/POST-api-Values",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"POST-api-Values"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUTValues-id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/PUT-api-Values-id",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"PUT-api-Values-id"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETEValues-id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://test-d365ce-webapi-wus.azurewebsites.net/Help/Api/DELETE-api-Values-id",
+							"protocol": "https",
+							"host": [
+								"test-d365ce-webapi-wus",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"Help",
+								"Api",
+								"DELETE-api-Values-id"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
